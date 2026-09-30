@@ -32,6 +32,17 @@ void display_result(double average, char grade) {
   printf("With an average of: %.2f, the grade is: %c\n", average, grade);
 }
 
+void display_Highest_Score(int score1, int score2, int score3) {
+  int highest = score1;
+  if (score2 > highest) {
+    highest = score2;
+  }
+  if (score3 > highest) {
+    highest = score3;
+  }
+  printf("The highest score was: %d\n", highest);
+}
+
 int main(void) {
   int scores[NUMBER_OF_SCORES_TO_GRAB] = {};
   int scanf_result, clear_char;
@@ -64,6 +75,7 @@ int main(void) {
 
   double average = calculate_average(scores[0], scores[1], scores[2]);
   char grade = determine_grade(average);
+  display_Highest_Score();
   display_result(average, grade);
   return EXIT_SUCCESS;
 }
