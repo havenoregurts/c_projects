@@ -75,7 +75,7 @@ int main(void) {
 
   double average = calculate_average(scores[0], scores[1], scores[2]);
   char grade = determine_grade(average);
-  display_Highest_Score();
+  display_highest_score(scores[0], scores[1], scores[2]);
   display_result(average, grade);
   return EXIT_SUCCESS;
 }
