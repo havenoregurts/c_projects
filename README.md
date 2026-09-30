@@ -13,3 +13,7 @@ gcc -Wall -Wextra -std=c23 main.c -o main
 ## Run
 
 ./main
+
+## Author
+
+Your Name
