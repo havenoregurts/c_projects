@@ -32,7 +32,7 @@ void display_result(double average, char grade) {
   printf("With an average of: %.2f, the grade is: %c\n", average, grade);
 }
 
-void display_Highest_Score(int score1, int score2, int score3) {
+void display_highest_score(int score1, int score2, int score3) {
   int highest = score1;
   if (score2 > highest) {
     highest = score2;
