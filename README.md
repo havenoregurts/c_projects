@@ -8,12 +8,12 @@ This module demonstrates the use of functions in C.
 
 ## Compile
 
-gcc -Wall -Wextra -std=c23 main.c -o main
+gcc -Wall -Wextra -std=c23 grade_calculator.c -o grade_calculator
 
 ## Run
 
-./main
+./grade_calculator
 
 ## Author
 
-Your Name
+Josh Fassett
